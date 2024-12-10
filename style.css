@@ -19,9 +19,13 @@ body {
     margin-top: -10px;
 }
 
-.stats-container {
-    display: flex;
+.stats-container:hover {
+    display: flexbox;
+    color:blue;
+    box-shadow: 0 0 30px;
+    background-color: lightblue;
 }
+
 
 .stats-card {
     background-color: #a8b0bc;
